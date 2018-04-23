@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,32 +17,31 @@
 <body>
     <div class = "container-fluid border" id =" header-container">
         <div class = "row">
-            <div class = "col-md-5" id = "headerTitle">
+            <div class = "col-md-12" id = "headerTitle">
                 <h1>The Magic Sushi Collector Game </h1>
             </div>
         </div>
         <div class = "row">
-            <div class = "col-mid-7" id = "gameRules">
-            <p>At the start of the game, you will be shown a random number.</p>
-            <p>There are four tasty sushi rolls below. The value of each suchi roll is hidden until you click on it.By clicking on a sushi roll you will add points to your total score.</p>
-            <p>To win the game, you need to match your total score to the random number. If your total score goes above the random number, you lose the game.</p>
-            <p>The value of each sushi roll will change with each new game.</p>
-            <p>Now go have some sushi!</p>
-        </div>
-        <div class = "row">
-            <div class = "col-md-3" id = "randomNumber">
-
-            </div>
-            <div class = "col-md-2" id = "currentScore">
-
+            <div class = "col-md-12" >
+                <div id = "gameRules">
+                    <p>At the start of the game, you will be shown a random number.</p>
+                    <p>There are four tasty sushi rolls below. The value of each suchi roll is hidden until you click on it. By clicking on a sushi roll you will add points to your total score.</p>
+                    <p>To win the game, you need to match your total score to the random number. If your total score goes above the random number, you lose the game.</p>
+                    <p>The value of each sushi roll will change with each new game.</p>
+                    <p>Now go have some sushi!</p>
+                </div>
             </div>
         </div>
         <div class = "row">
-            <div class = "col-md-7" id = "sushiButtons">
-                <button>sushi1</button>
-                <button>sushi2</button>
-                <button>sishi3</button>
-                <button>sushi4</button>
+            <div class = "col-md-3" id = "randomNumber"></div>
+            <div class = "col-md-2" id = "currentScore"></div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-12" id = "sushiButtons">
+                <button class = "button" id = "sushi1"></button>
+                <button class = "button" id = "sushi2"></button>
+                <button class = "button" id = "sushi3"></button>
+                <button class = "button" id = "sushi4"></button>
             </div>
         </div>
         <div class = "row">
@@ -49,9 +50,7 @@
             </div>
         </div>
         <div class = "row">
-            <div class = "col-md-4" id = "totalScore">
-
-            </div>
+            <div class = "col-md-4" id = "totalScore"></div>
         </div>
     </div>
 </body>

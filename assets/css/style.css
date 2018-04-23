@@ -2,7 +2,8 @@ body {
     background-image: url("../images/sushiMain.jpg");
     background-repeat: repeat;
     text-align: center;
-
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Muli', sans-serif;
 }
 
 #header-container{
@@ -10,5 +11,85 @@ body {
 }
 #headerTitle {
     display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+#gameRules {
+    display: inline-block;
+    text-align: center; 
+    border: 1px solid coral;
+    /* margin: 15px; */
+    width: inherit;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffbdbd;
+    color: black;
+    opacity: 0.7;
+    
+}
+.button {
+    width:200px;
+    height:200px;
+}
+#sushi1 {
+    background-image: url("../images/sushi1.jpg");
+    background-size: 100%;
+   
+}
+#sushi2 {
+    background-image: url("../images/sushi2.jpg");
+    background-size: 100%;
+}
+#sushi3 {
+    background-image: url("../images/sushi3.jpg");
+    background-size: 100%;
+}
+#sushi4 {
+    background-image: url("../images/sushi4.jpg");
+    background-size: 100%;
+}
+#randomNumber {
+    text-align: center; 
+    border: 1px solid coral;
+    background-color: 	#ffbdbd;
+    margin: 15px;
+    padding-top: 15px;
+    font-weight: bold;
 
+}
+#currentScore {
+    text-align: center; 
+    border: 1px solid coral;
+    background-color:#ffbdbd;
+    margin: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 30px;
+
+}
+#totalScoreText {
+    text-align: center; 
+    border: 1px solid#baffc9;
+    background-color: #e1f7d5;
+    margin: 15px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+    
+
+}
+#totalScore {
+    text-align: center; 
+    border: 1px solid #baffc9;
+    background-color: #e1f7d5;
+    margin: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 30px;
 }
