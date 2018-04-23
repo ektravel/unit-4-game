@@ -29,8 +29,7 @@ h1 {
     font-weight: bold;
     background-color: #ffbdbd;
     color: black;
-    opacity: 0.7;
-    
+    opacity: 0.7;   
 }
 .button {
     width:200px;
@@ -38,8 +37,7 @@ h1 {
 }
 #sushi1 {
     background-image: url("../images/sushi1.jpg");
-    background-size: 100%;
-   
+    background-size: 100%;  
 }
 #sushi2 {
     background-image: url("../images/sushi2.jpg");
@@ -60,7 +58,6 @@ h1 {
     margin: 15px;
     padding-top: 15px;
     font-weight: bold;
-
 }
 #currentScore {
     text-align: center; 
@@ -70,7 +67,6 @@ h1 {
     padding-top: 15px;
     font-weight: bold;
     padding-bottom: 30px;
-
 }
 #totalScoreText {
     text-align: center; 
@@ -80,9 +76,7 @@ h1 {
     padding-top: 15px;
     padding-right: 25px;
     padding-left: 10px;
-    font-weight: bold;
-    
-
+    font-weight: bold;  
 }
 #totalScore {
     text-align: center; 
