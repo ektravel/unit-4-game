@@ -15,6 +15,9 @@
   <title>Sushi Collector Game</title>
 </head>
 <body>
+    <audio id = "drumSound">
+        <source src = "assets/audio/recording.m4a">
+    </audio>
     <div class = "container-fluid border" id =" header-container">
         <div class = "row">
             <div class = "col-md-12" id = "headerTitle">
@@ -34,7 +37,10 @@
         </div>
         <div class = "row">
             <div class = "col-md-3" id = "randomNumber"></div>
-            <div class = "col-md-2" id = "currentScore"></div>
+            <div class = "col-md-2" id = "currentScore">
+                <p id = "wins">Wins: </p>
+                <p id = "losses">Losses: </p>
+            </div>
         </div>
         <div class = "row">
             <div class = "col-md-12" id = "sushiButtons">
@@ -46,7 +52,7 @@
         </div>
         <div class = "row">
             <div class "col-md-4" id = "totalScoreText">
-                <p>Your total score is:</p>
+                <p>Number total :</p>
             </div>
         </div>
         <div class = "row">
